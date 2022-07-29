@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '321aeecdad45402b8556306e54b9a157',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'Erik Nordquist',
+  domain: 'eriknordquist.se',
   author: 'Travis Fischer',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Erik Nordquists sida',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -42,8 +42,8 @@ export default siteConfig({
   // example:
   //
   // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  //   '/undersida': '3396fc83bc28443392e41853cbeb0ca2',
+  //   '/bloggen': 'a22b8967fb7049c5930e0767418af83e'
   // }
   pageUrlOverrides: null,
 
@@ -53,12 +53,12 @@ export default siteConfig({
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+  //     title: 'undersida',
+  //     pageId: '3396fc83bc28443392e41853cbeb0ca2'
   //   },
   //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //     title: 'bloggen',
+  //     pageId: 'a22b8967fb7049c5930e0767418af83e'
   //   }
   // ]
 })
